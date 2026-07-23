@@ -1,24 +1,25 @@
 {
   "id": "arcane-atlas-sync",
-  "title": "Arcane Atlas Sync",
-  "description": "Bring your Arcane Atlas maps, factions and documents into Foundry VTT.",
-  "version": "1.1.0",
+  "title": "Arcane Atlas Sync — Lore Vault",
+  "description": "Sync your Arcane Atlas Document Vault (letters, scrolls, books) into Foundry VTT Journal Entries. Premium (Patreon) required. Maps live in a separate Arcane Atlas module.",
+  "version": "1.2.0",
   "compatibility": {
     "minimum": "11",
-    "verified": "12"
+    "verified": "12",
+    "maximum": "13"
   },
   "authors": [
     {
-      "name": "Arcane Atlas Team"
+      "name": "Arcane Atlas Team",
+      "url": "https://arcaneatlas.org",
+      "discord": "https://discord.gg/arcaneatlas"
     }
   ],
-  "esmodules": [
-    "scripts/main.js"
-  ],
-  "styles": [
-    "styles/module.css"
-  ],
+  "esmodules": ["scripts/main.js"],
+  "styles": ["styles/module.css"],
   "url": "https://github.com/SrDelegado/arcane-atlas-foundry",
+  "readme": "https://github.com/SrDelegado/arcane-atlas-foundry#readme",
+  "bugs": "https://github.com/SrDelegado/arcane-atlas-foundry/issues",
   "manifest": "https://github.com/SrDelegado/arcane-atlas-foundry/releases/latest/download/module.json",
-  "download": "https://github.com/SrDelegado/arcane-atlas-foundry/releases/download/v1.1.0/arcane-atlas-sync.zip"
+  "download": "https://github.com/SrDelegado/arcane-atlas-foundry/releases/latest/download/arcane-atlas-sync.zip"
 }
