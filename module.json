@@ -1,12 +1,11 @@
 {
   "id": "arcane-atlas-sync",
-  "title": "Arcane Atlas Sync — Lore Vault",
+  "title": "Arcane Atlas Sync \u2014 Lore Vault",
   "description": "Sync your Arcane Atlas Document Vault (letters, scrolls, books) into Foundry VTT Journal Entries. Premium (Patreon) required. Maps live in a separate Arcane Atlas module.",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "compatibility": {
     "minimum": "11",
-    "verified": "13",
-    "maximum": "13"
+    "verified": "13"
   },
   "authors": [
     {
@@ -15,8 +14,12 @@
       "discord": "https://discord.gg/arcaneatlas"
     }
   ],
-  "esmodules": ["scripts/main.js"],
-  "styles": ["styles/module.css"],
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/module.css"
+  ],
   "url": "https://github.com/SrDelegado/arcane-atlas-foundry",
   "readme": "https://github.com/SrDelegado/arcane-atlas-foundry#readme",
   "bugs": "https://github.com/SrDelegado/arcane-atlas-foundry/issues",
