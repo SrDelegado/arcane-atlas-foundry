@@ -4,9 +4,8 @@
   "description": "Sync your Arcane Atlas Document Vault (letters, scrolls, books) into Foundry VTT Journal Entries. Premium (Patreon) required. Maps live in a separate Arcane Atlas module.",
   "version": "1.2.0",
   "compatibility": {
-    "minimum": "11",
-    "verified": "12",
-    "maximum": "13"
+    "minimum": "10",
+    "verified": "12"
   },
   "authors": [
     {
